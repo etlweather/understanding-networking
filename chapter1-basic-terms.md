@@ -76,7 +76,7 @@ as the router knows how to route the data over the Internet.
 
 ## IP address
 IP stands for *Internet Protocol* - it is a protocol (set of standards) which
-defines a way for computer to communicate over a network and how data is 
+defines a way for computers to communicate over a network and how data is 
 exchanged between computer networks.
 
 An IP address then is simply the identifier (address) of a computer in an 
