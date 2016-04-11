@@ -75,9 +75,9 @@ can communicate with other computers on the Internet by going through the router
 as the router knows how to route the data over the Internet.
 
 ## IP address
-IP stands for *Internet Protocol* - it is a protocol (set of standards) which
-defines a way for computer to communicate over a network and how data is 
-exchanged between computer networks.
+IP stands for *Internet Protocol* - a set of standards which defines a way for 
+computers to communicate over a network and how data is exchanged between 
+computer networks.
 
 An IP address then is simply the identifier (address) of a computer in an 
 IP-based network. In the human form, it is made of 4 sets of 1 to 3 digits (to
@@ -131,8 +131,8 @@ While the bandwdith represents how many bits per second can pass through the
 network, latency is how long it takes for a packet to be transmitted. Latency 
 does affect the actual speed of a link - a long latency reduces the speed.
 
-Today (2016), latency is measured in milliseconds (ms). On a local network, it 
-is usually below 2ms. On the Internet, one commonly finds 100ms as an average.
+> Today (2016), latency is measured in milliseconds (ms). On a local network, it 
+> is usually below 2ms. On the Internet, one commonly finds less than 100ms. [^3]
 
 ## network
 The word network can be used in multiple ways - it is often used to mean a 
@@ -160,3 +160,4 @@ but they won't be covered here.
 
 [^1]: [Timeline of Computer History, www.computerhistory.org](http://www.computerhistory.org/timeline/1933/)
 [^2]: [Optical fiber, wikipedia](https://en.wikipedia.org/wiki/Optical_fiber)
+[^3]: [Latency Numbers Everyone Should Know](https://dzone.com/articles/latency-numbers-everyone-should-know)
