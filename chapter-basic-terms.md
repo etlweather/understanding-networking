@@ -1,4 +1,4 @@
-The basic terms
+Basic terms
 ====================================
 
 Before delving into how a network works, let's define some of the key term with

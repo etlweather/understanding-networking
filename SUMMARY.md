@@ -1,6 +1,6 @@
 # Summary
 
-* [The basic terms](chapter-basic-terms.md)
+* [Basic terms](chapter-basic-terms.md)
 * [Switching](chapter-switching.md)
 * [Routing](chapter-routing.md)
 * [Internet](chapter-internet.md)
