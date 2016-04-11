@@ -58,6 +58,12 @@ are other networking technologies, but Ethernet today is the most common. The
 key aspect of Ethernet is that multiple devices can be connected through a
 switch or hub to form a network and thus able to exchange information.
 
+## wifi
+Wi-Fi is the name of a popular wireless networking technology that uses radio waves to provide wireless high-speed Internet and network connections. A common misconception is that the term Wi-Fi is short for "wireless fidelity," however this is not the case.  Wi-Fi is simply a way that wireless network connections can be made.  Often, but not always, wifi implies access to the internet via that wireless network connection. 
+
+## SSID
+SSID is short for Service Set IDentifier.  An SSID is a network name in a wireless network.  It is what is used to identify the different wireless networks that exist.
+
 ## modem
 *MOdulator DEModulator* - a device which encodes dinary data (digital) into an 
 analog signal suitable to be transmitted between devices. For example, modems
