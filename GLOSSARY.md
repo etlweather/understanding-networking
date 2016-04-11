@@ -27,6 +27,14 @@ Stands for *domain name system*. A computer system which makes it possible to
 access computers and servers using friendly names instead of network address. 
 For example, `google.com` instead of `74.125.196.139`.
 
+# hexadecimal
+A number system with base 16 (meaning there are 16 values). The symbols used 
+are: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. Hexadecimals are widely
+used in computing because binaries are harder for humans to deal with. The 
+decimal number `42`, when represented in hexadecimal is `2A` - usually written 
+with the prefix `0x` to signify hexadecimal (`0x2A`). 
+`2A = (2 * 16<sup>1</sup>) + (10 x 16<sup>0</sup>) = 42`.
+
 # micrometre
 The micrometre is also known as micron. It is one millionth of a meter, or 
 0.001 mm - about 0.000039 inch.
