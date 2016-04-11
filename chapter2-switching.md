@@ -33,6 +33,8 @@ A frame is simply a set of information encoded in a specific sequence which can
 then be sent through a computer network. We can make a visual representation of
 a frame with a table:
 
+| Frame field          | Description                                           |
+| -------------------- | ----------------------------------------------------- |
 | Preamble             | Some codes used to synchronize the devices            |
 | Destination Address  | The address of the device this frame is to be sent to |
 | Source Address       | The address which sent the frame                      |
