@@ -29,22 +29,6 @@ Nowaday, hubs are rarely used.
 ## port
 A port is a connector on a network device where a cable can be connected.
 
-## patch panel 
-A patch basically mean to connect two things together. A patch panel is a where
-the cables coming from the wall outlets through the walls, are connected. The
-cables are attached to the back of a connector attached to the patch panel. The
-front is a standard network cable connector which is used to connect a cable
-between the patch panel and the switch port (or other device).
-
-## patch cable
-A (normally) short cable used to connect two devices together or to connect a 
-device to a patch panel or wall outlet. Patch cables are normally made of a 
-different type of wire (stranded - multiple small strand of coper wires) than 
-the cables that run through the walls (solid - a single and thicker strand of 
-coper wire). Due to its material, there is more signal loss on a patch cable,
-in favor of its flexibility. For this reason, it is best to keep patch cable
-relatively short.
-
 ## protocol
 In computing, protocols are sets of rules or standards for transmitting 
 information - be it networking or transmitting data between two components of 
@@ -57,13 +41,6 @@ Ethernet is a set of technologies, protocols and standards for networking. There
 are other networking technologies, but Ethernet today is the most common. The 
 key aspect of Ethernet is that multiple devices can be connected through a
 switch or hub to form a network and thus able to exchange information.
-
-## modem
-*MOdulator DEModulator* - a device which encodes dinary data (digital) into an 
-analog signal suitable to be transmitted between devices. For example, modems
-were used to connect computers via phone lines. Modems are still used today - 
-for example, to connect mobile computers (such as smartphones) to computer 
-networks via cellular signal.
 
 ## router
 A router connects one network to another. This is an advanced networking concept. 
@@ -83,31 +60,8 @@ An IP address then is simply the identifier (address) of a computer in an
 IP-based network. In the human form, it is made of 4 sets of 1 to 3 digits (to
 the computer, this is all 0s or 1s), for example, `192.168.1.1`.
 
-## firewall
-A network device that is installed between two networks and provide security 
-features by inspecting the data sent from one network to the other and allows or 
-denies the traffic based on a set of rules configured by the administrator. It 
-is similar to a router but performs more security functions by inspecting the 
-traffic, not only routing it. It is typically used between the Internet and a 
-corporate network to prevent malicious intrusions from the Internet onto the 
-internal network.
-
 ## host
 Another word for a computer or server, generally referring to a physical machine.
-
-## fiber optic
-A type of cable made of glass through which light is transmitted. Computer data 
-is converted into light signals which go through the fiber optic cables. This 
-method of transmitting computer data can be used over long distance at 
-ultra-fast speed (speed of light).
-
-A typical fiber optic cable is made of multiple layers - two layers carrying
-the light signal (a core and a surrounding layer which confines the light to 
-the core), and two layers of protection. In total, the size of a typical fiber 
-optic cable (also called *strand*) is 780 micrometre (or 0.03042 inch).
-
-> The concept for transmitting light in such a way was first publicly 
-> demonstrated using a water flow carrying light in 1870.[^2]
 
 ## packet
 A packet is a unit of information sent through the network. It contains various
