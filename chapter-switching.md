@@ -67,7 +67,7 @@ identifies a device. However, with this scheme, there is a potential for a total
 of 281,474,976,710,656 devices, if every manufacturers use every single one of 
 their assigned numbers. So in reality, there will eventually be an overlap.
 
-Moreover, it is very easy to spoof a MAC address. Therefore, security through
+Moreover, it is very easy to fake a MAC address. Therefore, security through
 MAC address (deciding to allow a device on the network or not based on its MAC
 address) is far from a strong security. But it is a good starting point to a 
 secure network.
@@ -151,7 +151,7 @@ switches connected to each other - we will cover that later.*
 
 When your computer sends a piece of information on the network, to another 
 computer, it first sends a broadcast asking "who has IP address 
-`xxx.xxx.xxx.xxx`". Every computers on the network receive the broadcast and 
+`xxx.xxx.xxx.xxx`". Every computer on the network receives the broadcast and 
 the one with the IP address being asked about answers back with it's MAC 
 address.
 
@@ -169,7 +169,7 @@ who has IP address `192.168.1.3`.
 ![Switch in action - step 1](diagrams/switching-figure1.png)
 
 ### Step 2
-The switch record the source MAC address of the broadcast in its MAC address
+The switch records the source MAC address of the broadcast in its MAC address
 table for future reference.
 
 ![Switch in action - step 2](diagrams/switching-figure2.png)

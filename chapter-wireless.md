@@ -14,7 +14,7 @@ A wireless network used to connect user devices is normally called a
 
 ## Wi-Fi
 Wi-Fi is the name of a popular wireless networking technology (as defined in
-the IEEE 802.11 standards). The word Fi-Fi is actually a trademark owned by the
+the IEEE 802.11 standards). The word Wi-Fi is actually a trademark owned by the
 Wi-Fi Alliance (an organization which was formed to hold the trademark). The 
 term was coined for marketting as a play on words with *hi-fi*, however, it is
 not short "wireless fidelity".
