@@ -1,4 +1,4 @@
-Basic terms
+Basic Terms
 ====================================
 
 Before delving into how a network works, let's define some of the key term with
@@ -93,7 +93,7 @@ The word network can be used in multiple ways - it is often used to mean a
 *computer network* which is a system of inter-connected hosts, switches, routers, 
 etc.
 
-However, network engineers often use the term to refer to an abtract concept
+However, network engineers often use the term to refer to an abstract concept
 relating to how hosts on a computer network are addressed. On a network, 
 computers can communicate with each other through switches, but they can't 
 communicate to computers which are connected to another network - a router is
