@@ -5,6 +5,9 @@ A network begins with connecting two or more computers or devices to a switch.
 The computers send packets of data to the switch and in turns, it sends the
 packets to the recipient. So how does switching works?
 
+While there are many types of networks, what we will cover here is the most
+typical - the Ethernet switch.
+
 ## What is a switch?
 Probably the most common piece of equipment encountered relating to networking 
 is the *switch*. Switches are at the core of the network - they inter-connect 
@@ -61,7 +64,7 @@ from a MAC address is the manufacturer.
 
 In theory, the MAC address is unique for every device and therefore accurately
 identifies a device. However, with this scheme, there is a potential for a total
-of 281,474,976,710,656 devices, if every manufacturer use every single one of 
+of 281,474,976,710,656 devices, if every manufacturers use every single one of 
 their assigned numbers. So in reality, there will eventually be an overlap.
 
 Moreover, it is very easy to spoof a MAC address. Therefore, security through
@@ -205,4 +208,43 @@ The switch knows where the frame goes as it has the MAC address in its MAC
 address table - so it simply forwards the frame to the right port.
 
 ![Switch in action - step 8](diagrams/switching-figure8.png)
+
+## Recap
+So in summary, switching is about moving frames (which contains packets) between
+hosts on a local network (i.e. between switches).
+
+### Not all switches are equal
+There are many manufacturers of switches and many grades as well. You can get at
+local electronic store home-grade switches which can handle a certain amount
+of concurrent traffic and have a lower degree of reliability. There are also 
+more advanced switches that offer various features that are useful for 
+enterprises with a larger network. 
+
+Here are various features or differences one can look for in switches:
+
+ * Speed at which the switch processes traffic.
+ * Speed of each ports.
+
+> These two points are actually important. For example, a cheap switch might be 
+> advertized as a Gigabit switch - meaning it has ports that allow transferring 
+> up to 1 Gigabit per second (Gbps). However, if the internal switch speed is 
+> 2 Gbps, and the switch has 8 Gigabit ports, then you will not be able to get 
+> all 8 ports going at full speed at the same time. The maximum of 2 Gbps has to
+> be shared amongst all 8 ports (if all 8 ports are activelly transferring).
+
+ * Warranty, expected lifetime.
+ * Number of ports.
+ * Amount of memory for storing the MAC address table.
+ * Security.
+ * Switch administration.
+ * Monitoring.
+ * Quality of Service - a feature allowing prioritization of some 
+   traffic to guanrantee fast delivery (typically used for phone traffic over
+   the network).
+ * Power-over-ethernet (capability of providing electrical power to connected
+   devices, such as a phone).
+ * Loop prevention.
+
+Regardless of all this, all switches performs the same basic actions. 
+
 
