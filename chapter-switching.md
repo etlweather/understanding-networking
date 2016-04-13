@@ -157,7 +157,9 @@ address.
 
 ## The switch in action
 Here is a visual representation of the steps covered earlier, when a user
-performs a *ping*.
+performs a *ping* (*ping* is a program which sends a few packets of information
+to another computer to see if it responds and how long it takes - similar to a
+sonar in a submarine).
 
 ### Network layout
 ![Switch in action - layout](diagrams/switching-figure0.png)
