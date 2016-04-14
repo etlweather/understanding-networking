@@ -23,8 +23,8 @@ goes and passes the data unit only to the recipient.
 
 ![A network switch](diagrams/switch.jpg)
 
-<sup>By Geek2003 - Own work, CC BY-SA 3.0, 
-https://commons.wikimedia.org/w/index.php?curid=18446352</sup>
+<sup>By Geek2003, CC BY-SA 3.0</sup><br>
+https://commons.wikimedia.org/w/index.php?curid=18446352
 
 ## hub
 A hub is basically like a switch, except it has no *intelligence*. All data unit
@@ -59,8 +59,8 @@ as the router knows how to route the data over the Internet.
 
 ![A home router](diagrams/router.jpg)
 
-<sup>By Asim18 - Photographed by myself (Asim18), CC BY-SA 3.0, 
-https://commons.wikimedia.org/w/index.php?curid=3240436</sup>
+<sup>By Asim18, CC BY-SA 3.0</sup><br>
+https://commons.wikimedia.org/w/index.php?curid=3240436
 
 ## IP address
 IP stands for *Internet Protocol* - a set of standards which defines a way for 
