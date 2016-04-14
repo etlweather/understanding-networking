@@ -278,3 +278,19 @@ Routers are the key to transmitting information between different networks. They
 provide fundamental network security and by inter-connecting multiple networks,
 we can create a resilient network.
 
+Just like switches, there are various grades of routers. A home router can 
+perform only the basic functions and at a slower speed, handling less traffic.
+These are typically small, the size of a large paperback book.
+
+A medium size business class router can handle a lot more traffic and has 
+more security features and other functionalities used in corporate environments.
+These are typically larger and can be installed in a rack.
+
+And similarly, carrier-grade routers (for Internet Service Providers for 
+example) are very powerful and reliable. They can handle a lot of traffic and
+provide the kind of functionality carriers need. They usually are the size of a 
+cabinet!
+
+![A carrier grade router](diagrams/large-router.jpg)
+<small>By PassportDude at the English language Wikipedia, CC BY-SA 3.0, 
+https://commons.wikimedia.org/w/index.php?curid=11812244</small>

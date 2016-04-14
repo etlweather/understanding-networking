@@ -21,13 +21,18 @@ areas. A switch has basic *intelligence*. When a data unit is transmitted
 through it, the switch reads the begining of the data unit to see where it 
 goes and passes the data unit only to the recipient.
 
+![A network switch](diagrams/switch.jpg)
+<small>By Geek2003 - Own work, CC BY-SA 3.0, 
+https://commons.wikimedia.org/w/index.php?curid=18446352</small>
+
 ## hub
 A hub is basically like a switch, except it has no *intelligence*. All data unit
 received are passed on to all devices connected to it, regardless of destination.
 Nowaday, hubs are rarely used.
 
 ## port
-A port is a connector on a network device where a cable can be connected.
+A port is a connector on a computer, in networking, this is where the cables 
+are connected.
 
 ## protocol
 In computing, protocols are sets of rules or standards for transmitting 
@@ -51,6 +56,10 @@ router is then used to connect the switch to the Internet. The computers then
 can communicate with other computers on the Internet by going through the router 
 as the router knows how to route the data over the Internet.
 
+![A home router](diagrams/router.png)
+<small>By Asim18 - Photographed by myself (Asim18), CC BY-SA 3.0, 
+https://commons.wikimedia.org/w/index.php?curid=3240436</small>
+
 ## IP address
 IP stands for *Internet Protocol* - a set of standards which defines a way for 
 computers to communicate over a network and how data is exchanged between 
@@ -58,7 +67,9 @@ computer networks.
 
 An IP address then is simply the identifier (address) of a computer in an 
 IP-based network. In the human form, it is made of 4 sets of 1 to 3 digits (to
-the computer, this is all 0s or 1s), for example, `192.168.1.1`.
+the computer, this is all 0s or 1s), for example, `192.168.1.1`. 
+
+The values of each of the 4 sets can be between 0 and 255.
 
 ## host
 Another word for a computer or server, generally referring to a physical machine.
@@ -89,12 +100,13 @@ does affect the actual speed of a link - a long latency reduces the speed.
 > is usually below 2ms. On the Internet, one commonly finds less than 100ms. [^3]
 
 ## network
-The word network can be used in multiple ways - it is often used to mean a 
+The word network can be used in multiple ways - it is generally used to mean a 
 *computer network* which is a system of inter-connected hosts, switches, routers, 
 etc.
 
 However, network engineers often use the term to refer to an abstract concept
-relating to how hosts on a computer network are addressed. On a network, 
+relating to how hosts on a computer network are addressed. The more appropriate
+term in this case is *subnetwork* (or *subnet* for short). On a network, 
 computers can communicate with each other through switches, but they can't 
 communicate to computers which are connected to another network - a router is
 needed to route the packets between networks.

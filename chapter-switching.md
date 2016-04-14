@@ -13,6 +13,10 @@ Probably the most common piece of equipment encountered relating to networking
 is the *switch*. Switches are at the core of the network - they inter-connect 
 computers to each other. 
 
+![A network switch](diagrams/switch.jpg)
+<small>By Geek2003 - Own work, CC BY-SA 3.0, 
+https://commons.wikimedia.org/w/index.php?curid=18446352</small>
+
 One can connect two computers together using a single network cable connecting 
 the two directly. But to add a third computer (or more), one has to have a 
 switch which will receive the data from `computer A` and pass it on to either
@@ -246,6 +250,7 @@ Here are various features or differences one can look for in switches:
  * Power-over-ethernet (capability of providing electrical power to connected
    devices, such as a phone).
  * Loop prevention.
+ * Sensors to monitor the temperature of the switch
 
 Regardless of all this, all switches performs the same basic actions. 
 

@@ -98,6 +98,10 @@ cables are attached to the back of a connector attached to the patch panel. The
 front is a standard network cable connector which is used to connect a cable
 between the patch panel and the switch port (or other device).
 
+![A patch panel and some switches](diagrams/patch-panel.jpg)
+<small>By Dsimic - Own work, CC BY-SA 4.0, 
+https://commons.wikimedia.org/w/index.php?curid=42202271</small>
+
 # redundancy
 In engineering, redundancy is the duplication of critical components or 
 functions of a system with the intention of increasing reliability of the 
