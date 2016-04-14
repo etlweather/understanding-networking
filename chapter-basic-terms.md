@@ -22,8 +22,9 @@ through it, the switch reads the begining of the data unit to see where it
 goes and passes the data unit only to the recipient.
 
 ![A network switch](diagrams/switch.jpg)
-<small>By Geek2003 - Own work, CC BY-SA 3.0, 
-https://commons.wikimedia.org/w/index.php?curid=18446352</small>
+
+<sup>By Geek2003 - Own work, CC BY-SA 3.0, 
+https://commons.wikimedia.org/w/index.php?curid=18446352</sup>
 
 ## hub
 A hub is basically like a switch, except it has no *intelligence*. All data unit
@@ -56,9 +57,10 @@ router is then used to connect the switch to the Internet. The computers then
 can communicate with other computers on the Internet by going through the router 
 as the router knows how to route the data over the Internet.
 
-![A home router](diagrams/router.png)
-<small>By Asim18 - Photographed by myself (Asim18), CC BY-SA 3.0, 
-https://commons.wikimedia.org/w/index.php?curid=3240436</small>
+![A home router](diagrams/router.jpg)
+
+<sup>By Asim18 - Photographed by myself (Asim18), CC BY-SA 3.0, 
+https://commons.wikimedia.org/w/index.php?curid=3240436</sup>
 
 ## IP address
 IP stands for *Internet Protocol* - a set of standards which defines a way for 
