@@ -14,8 +14,9 @@ is the *switch*. Switches are at the core of the network - they inter-connect
 computers to each other. 
 
 ![A network switch](diagrams/switch.jpg)
-<small>By Geek2003 - Own work, CC BY-SA 3.0, 
-https://commons.wikimedia.org/w/index.php?curid=18446352</small>
+
+<sup>By Geek2003, CC BY-SA 3.0</sup><br>
+https://commons.wikimedia.org/w/index.php?curid=18446352
 
 One can connect two computers together using a single network cable connecting 
 the two directly. But to add a third computer (or more), one has to have a 

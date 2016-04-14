@@ -292,5 +292,6 @@ provide the kind of functionality carriers need. They usually are the size of a
 cabinet!
 
 ![A carrier grade router](diagrams/large-router.jpg)
-<small>By PassportDude at the English language Wikipedia, CC BY-SA 3.0, 
-https://commons.wikimedia.org/w/index.php?curid=11812244</small>
+
+<sup>By PassportDude, CC BY-SA 3.0</sup><br>
+https://commons.wikimedia.org/w/index.php?curid=11812244

@@ -100,7 +100,8 @@ In October 2003, Barrett Lyon started a project to make an accurate representati
 of the Internet. Here is the 2015 updated rendition.
 
 ![Visualization of the routing paths of the Internet](diagrams/internet.png)
-<small>Barrett Lyon / The Opte Project</small>
+
+<sup>Barrett Lyon / The Opte Project</sup>
  
  * Blue: North America
  * Green: Europe
