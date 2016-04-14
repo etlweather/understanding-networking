@@ -40,6 +40,7 @@ the page - the word resource is used because it is not only used for web pages.
 A URL is formed with the following parts:
 
    | Part           | Example         | Description 
+   | -------------- | --------------- | ---------------------------
    | scheme         | http://         | Defines the protocol which will be used for the connection used to retrieve the resource.
    | user:password@ | job:mypass@     | If a username and password is needed to access the resource, it can be provided, putting a `@` sign at the end. This is optional.
    | host           | www.example.com | The host (server) which provides the resource.
