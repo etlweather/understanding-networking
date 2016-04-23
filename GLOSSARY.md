@@ -6,6 +6,9 @@ is *binary digit*.
 # byte
 A set of 8 bits makes a byte.
 
+# bytes
+A byte is a set of 8 bits.
+
 # DHCP
 Stands for *dynamic host configuration protocol*. A set of standards and computer 
 services which is used to configure computers and servers when they start up. 

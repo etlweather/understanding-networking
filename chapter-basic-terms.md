@@ -18,7 +18,7 @@ and *nodes* (computers, printers, phones, etc).
 A device through which computers connect to the network. Switches are also 
 inter-connected with other switches to extend the network to other physical 
 areas. A switch has basic *intelligence*. When a data unit is transmitted 
-through it, the switch reads the begining of the data unit to see where it 
+through it, the switch reads the beginning of the data unit to see where it 
 goes and passes the data unit only to the recipient.
 
 ![A network switch](diagrams/switch.jpg)
@@ -38,7 +38,7 @@ are connected.
 ## protocol
 In computing, protocols are sets of rules or standards for transmitting 
 information - be it networking or transmitting data between two components of 
-a computer. For exapmle, a networking protocol would dictate how two devices
+a computer. For example, a networking protocol would dictate how two devices
 discover each other, how they establish a communication channel and how they
 signify the end of a transmission.
 
@@ -83,8 +83,8 @@ copied from one computer to another via the network, it will be broken up into
 multiple packets which will be sent through the network.
 
 ## bandwidth
-The bandwidth of a network link is how much data can travel on it in one second
-(*bps*). It is calculated in terms of bits per second. It can be said to be the 
+The bandwidth of a network link is how much data can travel on it in one second. 
+It is calculated in terms of bits per second. It can be said to be the 
 maximum speed of a network - its capacity. With no other factors involved, if a 
 network has a 100 Mbps (*Mega-bits per second*) bandwidth, it means that a movie
 of 700MB (*Mega-bytes*) will take 56 seconds to be transmitted.

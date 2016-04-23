@@ -2,7 +2,7 @@ Switching
 ====================================
 
 A network begins with connecting two or more computers or devices to a switch.
-The computers send packets of data to the switch and in turns, it sends the
+The computers send packets of data to the switch and in turn, it sends the
 packets to the recipient. So how does switching works?
 
 While there are many types of networks, what we will cover here is the most
@@ -27,9 +27,10 @@ switch which will receive the data from `computer A` and pass it on to either
 
 A switch is a relatively simple network device - it does not really know anything
 about what data is being sent on the network. It receives unit of data (called
-*frames*) from a device connected to one of its ports, reads the destination at 
-the begining of each frames and forwards (switches) the frames to the port where 
-the destination device is connected.
+*frames*, which is further explained in the next section) from a device 
+connected to one of its ports, reads the destination at 
+the beginning of each frames and forwards (switches) the frames to the port 
+where the destination device is connected.
 
 > Most of the time, when people talk about data going over the network, the word
 > packet is used. This is correct - a file sent over the network for example is
@@ -46,7 +47,7 @@ a frame with a table:
 | Preamble             | Some codes used to synchronize the devices            |
 | Destination Address  | The address of the device this frame is to be sent to |
 | Source Address       | The address which sent the frame                      |
-| Frame Type/Lenght    | The lenght of the frame or its type                   |
+| Frame Type/Length    | The length of the frame or its type                   |
 | Data (packet)        | The data being sent - the packet                      |
 | Check Sequence       | A number derived from the above to verify the frame is complete |
 
