@@ -61,7 +61,7 @@ Let's add this up - we can ignore any positions which have a zero in them as
 obviously *0 times anything equals 0*. So we have: `2 + 8 + 32 = 42`. The
 binary representation of decimal `42` is `101010`.
 
-How does all this relates to routing? Computers, to determine whether two IP
+How does all this relate to routing? Computers, to determine whether two IP
 addresses are in the same network or not use a *mask*. A mask is a Boolean
 algebra concept related to binary values.
 
@@ -74,7 +74,7 @@ Boolean algebra is a branch of mathematics which deals with logics.
 
 In Boolean algebra, the values are only one of two possibilities - 0 or 1 (false
 or true). The basic operations are: AND, OR and NOT. These operations define 
-the result of joinning two binary numbers (terms) together (in the case of NOT, 
+the result of joining two binary numbers (terms) together (in the case of NOT, 
 it is applied to a single term). 
 
  * *AND*: Both terms must be true (1) to get a result of true. E.g.: 1 AND 0 = 0, 
@@ -99,7 +99,7 @@ AND 0011  (mask)
 
 ## Determining if an IP address is part of the network
 Now that we have basic Boolean algebra covered, we can see how the computer
-determines whether the destiation of a packet is on the name network or not.
+determines whether the destiation of a packet is on the same network or not.
 
 The two datums available are IP address and netmask - this is entered into the
 computer by the person configuring it. Let's use `192.168.1.5` as IP address
@@ -134,7 +134,7 @@ in the preceeding example.
 The binary format of a network mask also tells us what digits to take from the 
 IP address to find the host part of the address (that is, the identifier which 
 is unique to the computer on this network). To do that, simply locate the last 
-consecutive series of 0s in the netmask - in the example above, it's 8 zeroes 
+consecutive series of 0s in the netmask - in the example earlier, it's 8 zeroes 
 (`00000000`). Thus, the portion of the IP address in the same position as this
 block is the host - in this case, it's `00000101` or `5`.
 
@@ -161,10 +161,10 @@ AND 11111111.11111111.11111111.00000000  (255.255.255.0 - Netmask)
 Finally, let's compare the prefix gotten to the prefix we got with the IP 
 address of our computer earlier: `192.168.22.0` is not equal to `192.168.1.0`.
 
-Or in binary with Boolean logic, we compare the two prefix using the 
+Or in binary with Boolean logic, we compare the two prefixes using the 
 Exclusive-OR operator (not covered earlier, the Exclusive-OR or XOR gives a 
 result of true when both terms are different, and a result of false when
-they are identical). If we get all 0s, then the two prefix are equal and 
+they are identical). If we get all 0s, then the two prefixes are equal and 
 therefore, are in the same network.
 
 ```
@@ -206,7 +206,7 @@ That is the simplicity of routers.
 
 ## Networks aren't only between companies
 In the examples earlier, we gave the example of two networks, one for Company A
-and the other for Company B. But subnets aren't only constraint to being in
+and the other for Company B. But subnets aren't only constrained to being in
 different company.
 
 A single company could use multiple networks to isolate various areas. For 
@@ -216,10 +216,10 @@ separate network.
 
 When a network becomes large, the broadcasts that occurs when a computer tries
 to send information become numerous and can create a lot of traffic on a network.
-Imaging if there are 1,000 computers on a single network. Everytime a computer 
+Imaging if there are 1,000 computers on a single network. Every time a computer 
 needs to discover a new device, a broadcast is sent to 999 other computers.
 
-## Why having two types of devices?
+## Why have two types of device?
 That is a good question. If that is all routers did, it would definitely look
 extravagant to purchase a router just to do that. 
 
@@ -241,18 +241,18 @@ for security when transmitting the data between two routers. This is common
 when two routers are not directly connected but are rather communicating via 
 the Internet or via a wireless connection.
 
-Today, there are also switches which also performs the basic router functions
+Today, there are also switches which perform the basic router functions
 (routing packets and filtering based on IP address). In this case, the switch
 isn't really a switch in its full sense and isn't really a router either. It's
 both and is commonly refered to as *Layer 3 switch*.
 
-> Layer 3 refers to the 7 distincts functionalities on a network, layer 3 is
+> *Layer* refers to the 7 distincts functionalities on a network, layer 3 is
 > the routing layer.
 
 ## A more complex network
 The Internet is a complex network made of multiple networks inter-connected 
 to each other with routers. Larger corporations have more complex networks
-as well - for example, a company with a campus of multiple building might
+as well - for example, a company with a campus of multiple buildings might
 define each building as its own network and inter-connect them.
 
 This would look a little bit like the following diagram:
@@ -265,7 +265,7 @@ directly connected, but (provided the network administrator allows it), Network
 A is also able to connect to computers in Networks C and D via Router B.
 
 This inter-connection is what makes the Internet a resilient network. Each 
-networks are connected to one or more networks. A network with connections to
+network is connected to one or more networks. A network with connections to
 multiple other networks has more chances to reach its destination when there 
 are outages.
 
@@ -293,5 +293,9 @@ cabinet!
 
 ![A carrier grade router](diagrams/large-router.jpg)
 
-<sup>By PassportDude, CC BY-SA 3.0</sup><br>
-https://commons.wikimedia.org/w/index.php?curid=11812244
+An example of a carrier grade router[^1]
+
+
+-------------
+
+[^1]: By PassportDude, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11812244

@@ -46,7 +46,7 @@ optic cable (also called *strand*) is 780 micrometre (or 0.03042 inch).
 
 
 ## firewall
-A network device that is installed between two networks and provide security 
+A network device that is installed between two networks and provides security 
 features by inspecting the data sent from one network to the other and allows or 
 denies the traffic based on a set of rules configured by the administrator. It 
 is similar to a router but performs more security functions by inspecting the 
@@ -91,7 +91,7 @@ device to a patch panel or wall outlet. Patch cables are normally made of a
 different type of wire (stranded - multiple small strand of coper wires) than 
 the cables that run through the walls (solid - a single and thicker strand of 
 coper wire). Due to its material, there is more signal loss on a patch cable,
-in favor of its flexibility. For this reason, it is best to keep patch cable
+in favor of its flexibility. For this reason, it is best to keep patch cables
 relatively short.
 
 ## patch panel 

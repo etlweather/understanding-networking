@@ -15,8 +15,7 @@ computers to each other.
 
 ![A network switch](diagrams/switch.jpg)
 
-<sup>By Geek2003, CC BY-SA 3.0</sup><br>
-https://commons.wikimedia.org/w/index.php?curid=18446352
+Example of a switch[^1]
 
 One can connect two computers together using a single network cable connecting 
 the two directly. But to add a third computer (or more), one has to have a 
@@ -70,7 +69,7 @@ from a MAC address is the manufacturer.
 
 In theory, the MAC address is unique for every device and therefore accurately
 identifies a device. However, with this scheme, there is a potential for a total
-of 281,474,976,710,656 devices, if every manufacturers use every single one of 
+of 281,474,976,710,656 devices, if every manufacturer use every single one of 
 their assigned numbers. So in reality, there will eventually be an overlap.
 
 Moreover, it is very easy to fake a MAC address. Therefore, security through
@@ -257,3 +256,6 @@ Here are various features or differences one can look for in switches:
 Regardless of all this, all switches performs the same basic actions. 
 
 
+-------------
+
+[^1]: By Geek2003, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18446352

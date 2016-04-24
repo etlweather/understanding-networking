@@ -2,7 +2,7 @@ Wireless networking
 ====================================
 
 While wireless data transmission technologies have existed for more than 100 
-year[^1], its use in computer networking is becoming more and more popular.
+years[^1], its use in computer networking is becoming more and more popular.
 
 Long distance links are now routinely set up in areas where installing fiber 
 optic cables is prohibitive or not possible, laptops are now always equipped 
@@ -16,7 +16,7 @@ A wireless network used to connect user devices is normally called a
 Wi-Fi is the name of a popular wireless networking technology (as defined in
 the IEEE 802.11 standards). The word Wi-Fi is actually a trademark owned by the
 Wi-Fi Alliance (an organization which was formed to hold the trademark). The 
-term was coined for marketting as a play on words with *hi-fi*, however, it is
+term was coined for marketing as a play on words with *hi-fi*, however, it is
 not short "wireless fidelity".
 
 Wi-Fi only represents the technology used. While commonly associated with 

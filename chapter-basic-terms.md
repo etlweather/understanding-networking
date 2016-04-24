@@ -1,8 +1,8 @@
 Basic Terms
 ====================================
 
-Before delving into how a network works, let's define some of the key term with
-basic definition to help comprehension.
+Before delving into how a network works, let's define some of the key terms with
+basic definitions to help comprehension.
 
 ## networking
 In computing, networking is the practice of connecting devices (computers)
@@ -23,17 +23,16 @@ goes and passes the data unit only to the recipient.
 
 ![A network switch](diagrams/switch.jpg)
 
-<sup>By Geek2003, CC BY-SA 3.0</sup><br>
-https://commons.wikimedia.org/w/index.php?curid=18446352
+Example of a switch[^4]
 
 ## hub
-A hub is basically like a switch, except it has no *intelligence*. All data unit
+A hub is basically like a switch, except it has no *intelligence*. All data units
 received are passed on to all devices connected to it, regardless of destination.
-Nowaday, hubs are rarely used.
+Nowadays, hubs are rarely used.
 
 ## port
-A port is a connector on a computer, in networking, this is where the cables 
-are connected.
+In the physical aspects of networking, a port is a connector on a computer (or 
+any other network device), this is where the cables are connected.
 
 ## protocol
 In computing, protocols are sets of rules or standards for transmitting 
@@ -59,8 +58,7 @@ as the router knows how to route the data over the Internet.
 
 ![A home router](diagrams/router.jpg)
 
-<sup>By Asim18, CC BY-SA 3.0</sup><br>
-https://commons.wikimedia.org/w/index.php?curid=3240436
+Example of a router[^5]
 
 ## IP address
 IP stands for *Internet Protocol* - a set of standards which defines a way for 
@@ -94,7 +92,7 @@ speed to qualify a data transmission (a download, etc) and bandwidth for the
 capacity of a line.
 
 ## latency
-While the bandwdith represents how many bits per second can pass through the 
+While the bandwidth represents how many bits per second can pass through the 
 network, latency is how long it takes for a packet to be transmitted. Latency 
 does affect the actual speed of a link - a long latency reduces the speed.
 
@@ -129,3 +127,5 @@ but they won't be covered here.
 [^1]: [Timeline of Computer History, www.computerhistory.org](http://www.computerhistory.org/timeline/1933/)
 [^2]: [Optical fiber, wikipedia](https://en.wikipedia.org/wiki/Optical_fiber)
 [^3]: [Latency Numbers Everyone Should Know](https://dzone.com/articles/latency-numbers-everyone-should-know)
+[^4]: By Geek2003, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18446352
+[^5]: By Asim18, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3240436

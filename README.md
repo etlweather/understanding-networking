@@ -4,8 +4,8 @@ Understanding Networking for the non-IT
 Networking is ubiquitous to today's world - it's part of your phone, your
 computer, your tablet, your water meter, your thermostat...
 
-However, networking can be complex to actually understand. People in an 
-administrative position can be at the mercy of the network. Therefore it is
+However, networking can be complex to actually understand. People in  
+administrative positions can be at the mercy of the network. Therefore it is
 important that they understand what it is and how it works.
 
 This small document aims at providing a rapid, but complete, understanding of 

@@ -22,7 +22,7 @@ There are many other common use for the Internet:
 
 ## The world-wide-web
 The world-wide-web - commonly referred to as "the web" - is a set of computer
-service over the Internet network where individuals and corporations make
+services over the Internet network where individuals and corporations make
 data available in the form of pages with links to other pages. The pages may
 or may not contain multimedia content (images, sound, video, etc).
 
@@ -53,7 +53,7 @@ Here is an example of a URL containing all parts:
 
 `http://joe:mypass@www.example.com/search?query=documents#footnote`
 
-Many schemes exists - protocols to retrieve information - however, the most
+Many schemes exist - protocols to retrieve information - however, the most
 common ones are:
 
    * **http**: HyperText Transfer Protocol - a protocol for transfering web 
@@ -73,7 +73,7 @@ really just a concept - the idea being that multiple private networks are
 inter-connected.
 
 There are major players however - large telecommunication and IT corporations 
-as well as governments - which provides key servers and routers which makes the
+as well as governments - which provides key servers and routers which make the
 Internet work.
 
 When you are accessing a server through the Internet, the network packets sent
@@ -113,7 +113,7 @@ of the Internet. Here is the 2015 updated rendition.
 
 
 ## What is the cloud?
-The word "cloud" is simply a marketting term referring the practice of using 
+The word "cloud" is simply a marketing term referring the practice of using 
 services provided by companies via the Internet. The term and practice became 
 popular since 2006 due to a growing number of on-line services. 
 
@@ -125,7 +125,7 @@ system accessed through the Internet as opposed of it being installed on your
 own computer/server.
 
 However, "cloud computing" has existed since the 1960s - at the time, computers 
-were expansive, so large servers were installed in corporations and dumb 
+were expensive, so large servers were installed in corporations and dumb 
 terminals were installed at user's desks or in computer labs. Users would share 
 the large server. This is the same as today's cloud services. 
 
@@ -134,7 +134,7 @@ processing was done on your own computer instead of on servers. But since around
 2006, with the growing Internet precense and the need to have on-line services, 
 the practice of renting computer processing time on large servers came back. 
 
-For a new company starting up, it is less expansive to rent processing time than
+For a new company starting up, it is less expensive to rent processing time than
 to set up and run their own server room connected to the Internet with fast 
 bandwidth.
 
